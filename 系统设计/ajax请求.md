@@ -2,47 +2,49 @@
 # 群益系统管理ajax请求文档
 
 ### 调用方式
+---
 
 和jquery的ajax一样调用 只是把$.ajax改成$.qyAjax
 
 ```js
-	/**
-	 * 缺省是get请求
-	 */
-	$.qyAjax({
-		url: '/sys/newSysEmployee/findEmployeesListBySelector',
-		data: data,
-		success: noop,
-		error: noop
-	});
-	
-	/**
-	 * get请求也可以：
-	 */
-	$.qyGet({
-		url: '/sys/newSysEmployee/findEmployeesListBySelector',
-		data: data,
-		success: noop,
-		error: noop
-	});
-	
-	/**
-	 * post请求
-	 */
-	$.qyPost({
-		url: '/sys/newSysEmployee/findEmployeesListBySelector',
-		data: data,
-		success: noop,
-		error: noop
-	});
-	
-	/**
-	 * promise方式
-	 */
-	$.qyFetch(url, data).then(func);
+/**
+ * 缺省是get请求
+ */
+$.qyAjax({
+	url: url,
+	data: data,
+	success: noop,
+	error: noop
+});
+
+/**
+ * get请求也可以：
+ */
+$.qyGet({
+	url: url,
+	data: data,
+	success: noop,
+	error: noop
+});
+
+/**
+ * post请求
+ */
+$.qyPost({
+	url: url,
+	data: data,
+	success: noop,
+	error: noop
+});
+
+/**
+ * promise方式
+ */
+$.qyFetch(url, data).then(func);
 ```
 
 ### 参数
+---
 
 > url
 
@@ -81,6 +83,7 @@
 不论请求成功还是失败都可以触发这个钩子
 
 ### 封装内容
+---
 
 
 
