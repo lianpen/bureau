@@ -26,6 +26,12 @@ $('.pagination').pagination({
 
 分页变化时回调
 
+```js
+onChange = function(current) {
+	console.log('当前页：' + current);
+}
+```
+
 ### pageSize
 
 ```Number``` ```Optional``` ```default=15```
@@ -37,6 +43,12 @@ $('.pagination').pagination({
 ```Number``` ```Optional``` ```default=1```
 
 缺省的当前页
+
+### jumpNumber
+
+```Number``` ```Optional``` ```default=5```
+
+快跳页数
 
 ## 实现功能
 
