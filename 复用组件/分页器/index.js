@@ -1,3 +1,8 @@
+/**
+ * 分页组件
+   lianpen
+ */
+
 (function definePagination() {
 	var Pagination = function(dom, param) {
 		this.$dom = $(dom);

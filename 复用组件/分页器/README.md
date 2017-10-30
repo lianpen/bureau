@@ -80,7 +80,13 @@ onChange = function(current) {
 
 ![image](https://imgsa.baidu.com/forum/w%3D580/sign=dfb9847cbb7eca80120539efa1229712/245a49096e061d9567d3156770f40ad163d9cab0.jpg)
 
+## 依赖
 
+[jquery](https://github.com/jquery/jquery)
+
+[bootstrap](https://github.com/twbs/bootstrap)
+
+[underscore](https://github.com/jashkenas/underscore)
 
 
 
