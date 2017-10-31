@@ -1,6 +1,7 @@
 
 /**
  * 下拉框
+   lianpen
  */
 (function defineDropdown() {
 	var dropdown = function(dom) {

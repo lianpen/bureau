@@ -38,6 +38,12 @@ $('.dropdown').dropdown({
 });
 ```
 
+## 获取当前选中的值
+
+```js
+$('.dropdown').data('value');
+```
+
 ## 参数
 
 ### defaultValue

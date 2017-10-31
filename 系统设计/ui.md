@@ -58,6 +58,23 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
   </div>
 ```
 
+## 图标
+
+### 标准icon
+
+```html
+<i class="icon icon-down"></i>
+```
+
+### 非标准icon
+
+```html
+<i class="icomoon-check"></i>
+```
+
+详见[图标文档]()
+
+
 ## 输入框
 
 ![输入框](https://imgsa.baidu.com/forum/w%3D580/sign=331bc910073387449cc52f74610ed937/42a71b168a82b9018faf5473788da9773812efc9.jpg)
