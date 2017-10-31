@@ -72,7 +72,7 @@ ICOMOON
 
 ![icomoon](https://imgsa.baidu.com/forum/w%3D580/sign=bb6d52d88926cffc692abfba89004a7d/bd15201e95cad1c8abaed866743e6709c93d5131.jpg)
 
-你就拿到一个文件夹。张这副样子。
+你就拿到一个文件夹。长这副样子。
 
 ![icomoon](https://imgsa.baidu.com/forum/w%3D580/sign=3ef5d89b1ece36d3a20483380af23a24/c7b62b728bd4b31ce241b0fa8cd6277f9f2ff8ca.jpg)
 
