@@ -47,7 +47,7 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
   </div>
 ```
 
-还有文字时也要套label
+没有文字时也要套label
 
 ```html
   <div class="checkbox">
