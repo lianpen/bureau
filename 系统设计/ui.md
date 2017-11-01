@@ -135,3 +135,30 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
 
 详见[表格文档](https://github.com/lianpen/qy-bureau/tree/master/%E5%A4%8D%E7%94%A8%E7%BB%84%E4%BB%B6/%E8%A1%A8%E6%A0%BC)
 
+## 模态框
+
+![模态框](https://imgsa.baidu.com/forum/w%3D580/sign=f91ff8f38b0a19d8cb03840d03fb82c9/de18fef3b211931385de5ef26e380cd790238dab.jpg)
+
+```html
+<div class="modal open">
+	<div role="document" class="modal-dialog" style="width: 520px;">
+		<div class="modal-content">
+			<button class="modal-close"><span class="modal-close-x"></span></button>
+			<div class="modal-header">
+				<div class="ant-modal-title">模态框标题</div>
+			</div>
+			<div class="modal-body">
+				<p>xiong</p>
+				<p>ling</p>
+				<p>yong</p>
+				<p>lina</p>
+				<p>diudiu</p>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn"><span>取消</span></button>
+				<button type="button" class="btn btn-primary"><span>确定</span></button>
+			</div>
+		</div>
+	</div>
+</div>	
+```
