@@ -47,7 +47,7 @@ $('.modal').modal('close');
 $('.modal').modal('toggle');
 ```
 
-##一些姿势
+## 一些姿势
 
 1. 具有modal-close的类，点击时会关闭。
 2. 框体的宽度可以直接内联在modal-dialog这个类上。
