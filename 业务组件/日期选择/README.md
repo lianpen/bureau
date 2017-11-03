@@ -38,7 +38,7 @@ $('.calendar').data('value');
 
 ```String``` ```Mandatory``` ```value=year || month```
 
-选择范围 ## 必填 ## 填year或者month
+选择范围 **必填** 填year或者month
 
 在一个月中选择一天用month
 
@@ -54,7 +54,7 @@ $('.calendar').data('value');
 
 如果范围是年，那么value是月逗号日，表示每年的几月几号
 
-另外## 特别注意！ ##
+另外**特别注意！**
 
 #### 编程中数字是从0开始的 所以数字要减1 就是说4月的话month是3 26日的话day是25
 
