@@ -7,7 +7,7 @@
 
 ```html
 <div class="modal">
-	<div role="document" class="modal-dialog" style="width: 520px;">
+	<div role="document" class="modal-dialog" style="width: 520px; height: 400px; ">
 		<div class="modal-content">
 			<button class="modal-close"><span class="modal-close-x"></span></button>
 			<div class="modal-header">
@@ -50,7 +50,7 @@ $('.modal').modal('toggle');
 ## 一些姿势
 
 1. 具有modal-close的类，点击时会关闭。
-2. 框体的宽度可以直接内联在modal-dialog这个类上。
+2. 框体的宽度，高度可以直接内联在modal-dialog这个类上。
 
 ## 实现分享
 

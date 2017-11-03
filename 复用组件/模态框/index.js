@@ -19,6 +19,7 @@
 		showDom.call(this);
 		showMask.call(this);
 		this.addEvents();
+		updateBodyHeight.call(this);
 		function showDom() {
 			this.$dom.show();
 			this.$dom.addClass('zoom-enter zoom-enter-active');
@@ -35,6 +36,15 @@
 			setTimeout(function() {
 				context.$mask.removeClass('fade-enter fade-enter-active');
 			}, 200);
+		}
+		function updateBodyHeight() {
+			var $doms = {
+				dialog: this.$dom.find('.modal-dialog'),
+				header: this.$dom.find('.modal-header'),
+				body: this.$dom.find('.modal-body'),
+				footer: this.$dom.find('.modal-footer')
+			};
+			$doms.body.height($doms.dialog.height() - $doms.header.height() - $doms.footer.height());
 		}
 	}
 	
