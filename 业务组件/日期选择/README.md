@@ -84,20 +84,6 @@ onChange = function(value) {
 }
 ```
 
-## 依赖
-
-[jquery](https://github.com/jquery/jquery)
-
-[bootstrap](https://github.com/twbs/bootstrap)
-
-[underscore](https://github.com/jashkenas/underscore)
-
-
-
-
-
-
-
 
 
 
