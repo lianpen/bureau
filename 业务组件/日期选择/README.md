@@ -7,6 +7,10 @@
 1. 选择每个月的哪天
 2. 选择每年的哪月哪天
 
+## demo演示
+
+[请大胆点击，不要害羞](https://lianpen.github.io/demo/qy-bureau/html/component/calendar.html)
+
 ## 调用
 
 ```html
