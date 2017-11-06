@@ -9,7 +9,7 @@
 
 ## 在线演示
 
-您可能狠狠地点击这里：[ui demo](https://lianpen.github.io/blob/master/qy-bureau/html/component/ui.html)
+您可能狠狠地点击这里：[ui demo](https://lianpen.github.io/demo/qy-bureau/html/component/ui.html)
 
 ## 文件引用
 
@@ -76,7 +76,7 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
 <i class="icomoon-check"></i>
 ```
 
-详见[图标文档](https://github.com/lianpen/qy-bureau/blob/master/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/icon.md)
+详见[图标文档](https://github.com/lianpen/qy-bureau/demo/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/icon.md)
 
 ## 输入框
 

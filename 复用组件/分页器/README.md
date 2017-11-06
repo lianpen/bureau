@@ -2,7 +2,7 @@
 
 ## 在线演示
 
-您可能狠狠地点击这里：[pagination demo](https://lianpen.github.io/blob/master/qy-bureau/html/component/pagination.html)
+您可能狠狠地点击这里：[pagination demo](https://lianpen.github.io/demo/qy-bureau/html/component/pagination.html)
 
 ## 调用
 
