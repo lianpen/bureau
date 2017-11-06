@@ -103,10 +103,10 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
 ### 非标准icon
 
 ```html
-<i class="icomoon-check"></i>
+<i class="qyfont qyfont-check"></i>
 ```
 
-详见[图标文档](https://github.com/lianpen/qy-bureau/demo/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/icon.md)
+详见[图标文档](https://github.com/lianpen/qy-bureau/blob/master/%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1/%E7%9F%A2%E9%87%8F%E5%9B%BE%E6%A0%87%E4%BD%BF%E7%94%A8%E6%96%87%E6%A1%A3.md)
 
 ## 输入框
 
