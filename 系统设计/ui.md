@@ -62,6 +62,36 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
   </div>
 ```
 
+## 单选框
+
+![单选框](https://imgsa.baidu.com/forum/w%3D580/sign=846e815f60600c33f079dec02a4c5134/0f7dcafd1e178a82560c3debfd03738da977e822.jpg)
+
+```html
+<div class='radio-group'>
+	<span class="radio" data-value='0'>
+		<span>
+			<input type="radio">
+			<i></i>
+		</span>
+		<label>上海</label>
+	</span>
+	<span class="radio" data-value='1'>
+		<span>
+			<input type="radio">
+			<i></i>
+		</span>
+		<label>北京</label>
+	</span>
+	<span class="radio" data-value='2'>
+		<span>
+			<input type="radio">
+			<i></i>
+		</span>
+		<label>广州</label>
+	</span>
+</div>
+```
+
 ## 图标
 
 ### 标准icon
