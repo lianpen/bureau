@@ -8,8 +8,7 @@
 2. 选择每年的哪月哪天
 
 ## demo演示
-
-[请大胆点击，不要害羞](https://lianpen.github.io/demo/qy-bureau/html/component/calendar.html)
+您可能狠狠地点击这里：[calendar demo](https://lianpen.github.io/demo/qy-bureau/html/component/calendar.html)
 
 ## 调用
 
