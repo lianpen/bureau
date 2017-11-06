@@ -70,7 +70,8 @@ $('.dropdown').data('value');
 
 2. 下拉框打开时要在页面根元素注册一个点击事件来关闭下拉框。事件执行一次及销毁。jquery有现成$.fn.one。
 
-3. 分享下拉和收缩的动画，我完全借鉴了ant-design的动画库slice-up。让scaleY从0.8-1的同时，让opacity从0到1。
+3. 分享下拉和收缩的动画，我借鉴了ant-design的动画库slice-up。让scaleY从0.8-1的同时，让opacity从0到1。
+transform-origin是0,0。
 另外要注意toggleShow和toggleClass的顺序。
 
 ```css
@@ -115,3 +116,27 @@ $('.dropdown').data('value');
     pointer-events: none
 }
 ```
+
+我是没有明白为何要额外加active，我觉得没啥用去掉了，精简成：
+
+```css
+.slide-up-enter {
+    -webkit-animation: antSlideUpIn .2s;
+    animation: antSlideUpIn .2s;
+    animation-fill-mode: both;
+}
+
+.slide-up-leave {
+    -webkit-animation: antSlideUpOut .2s;
+    animation: antSlideUpOut .2s;
+    animation-fill-mode: both;
+}
+```
+
+
+4. 动画结束时需要关闭动画类，隐藏等操作，是用setTimeout或者transitionend实现的。
+如果用户点的快的话，动画过程中会开启另一个动画，然后前一个动画时间到了触发事件就影响了下一个动画。
+所以，每一个动画需要一个uuid。
+闭包实现记住uuid和整个下拉框对象的uuid做比较，如果不一致，表示下一个动画已经登场了。就交给下一代了。
+
+
