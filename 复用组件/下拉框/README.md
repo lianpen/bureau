@@ -3,6 +3,10 @@
 
 ![下拉框](https://imgsa.baidu.com/forum/w%3D580/sign=bb453a2044c2d562f208d0e5d71090f3/84ac95539822720e0e8e76ba70cb0a46f31fab8e.jpg)
 
+## 在线演示
+
+您可能狠狠地点击这里：[dropdown demo](https://lianpen.github.io/blob/master/qy-bureau/html/component/dropdown.html)
+
 ## 调用
 
 ```html

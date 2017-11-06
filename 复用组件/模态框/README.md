@@ -3,6 +3,10 @@
 
 ![模态框](https://imgsa.baidu.com/forum/w%3D580/sign=32a8cd873187e9504217f3642039531b/2cd082d7277f9e2f83a0df4c1430e924b999f3be.jpg)
 
+## 在线演示
+
+您可能狠狠地点击这里：[modal demo](https://lianpen.github.io/blob/master/qy-bureau/html/component/modal.html)
+
 ## 调用
 
 ```html
