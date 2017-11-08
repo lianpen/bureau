@@ -5,7 +5,7 @@
 
 ## 在线演示
 
-您可能狠狠地点击这里：[dropdown demo](https://lianpen.github.io/demo/qy-bureau/html/component/dropdown.html)
+您可能狠狠地点击这里：[dropdown demo](https://lianpen.github.io/demo/demos/dropdown.html)
 
 ## 调用
 

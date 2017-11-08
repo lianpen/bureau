@@ -9,7 +9,7 @@
 
 ## 在线演示
 
-您可能狠狠地点击这里：[ui demo](https://lianpen.github.io/demo/qy-bureau/html/component/ui.html)
+您可能狠狠地点击这里：[ui demo](https://lianpen.github.io/demo/demos/ui.html)
 
 ## 文件引用
 
