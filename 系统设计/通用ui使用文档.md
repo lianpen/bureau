@@ -15,15 +15,12 @@
 
 ```html
 <link rel="stylesheet" href="bootstrap.css" />
-<link rel="stylesheet" href="bootstrap-theme.css" />
 <link rel="stylesheet" href="iconfont.css" />
 ```
 
-引用3个文件 
+引用2个文件 
 
 bootstrap.css是官方标准样式
-
-bootstrap-theme.css是定制主题 我就是通过这个文件模仿ant-design的
 
 iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](https://ant.design/components/icon-cn/)
 
@@ -34,6 +31,7 @@ iconfont.css是一个icon字体库 可使用的icon见[ant-design官方文档](h
 ```html
 <button type="button" class="btn">默认按钮</button>
 <button type="button" class="btn btn-primary">主按钮</button>
+<button type="button" class="btn btn-info">信息按钮</button>
 <button type="button" class="btn btn-danger">危险点击</button>	
 <button type="button" class="btn btn-disabled">禁用</button>	
 ```
