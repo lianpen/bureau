@@ -99,6 +99,12 @@ $.message({
 
 图标大小
 
+### hasButtons
+
+```Boolean``` ```Optional``` ```default=true```
+
+是否有底部按钮 缺省是有的
+
 ### buttons
 
 ```Array``` ```Optional```
@@ -132,13 +138,13 @@ buttons长度最多为2。
 
 ```Function``` ```Optional```
 
-确认按钮回调函数 只有在未定义buttons参数时才生效
+确认按钮回调函数 只有在hasButtons参数为缺省的true且buttons参数未定义时才生效
 
 ### duration
 
 ```Number``` ```Optional``` ```default=3000```
 
-自动消失的持续时间 在未定义buttons参数时才生效
+自动消失的持续时间 在hasButtons参数未false时才生效
 
 
 
